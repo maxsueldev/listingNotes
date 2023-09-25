@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+textarea {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.submit {
+    width: 7rem;
+    margin-bottom: 2rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    margin: 0 2rem;
+}
+
+.nota {
+    list-style: none; 
+    border: 1px solid #0B182C;
+    border-radius: 20px;
+    padding: 1.2rem 3rem;
+    /* margin: 2rem; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.deletaButton {
+    padding: 3px 12px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;    
+    }
+    .lista {
+        margin-top: 30px;
+    }
+    .nota {
+        padding: 1rem 10rem;
+    }
+    .form {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 1040px) {
+
+}
